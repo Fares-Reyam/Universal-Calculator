@@ -205,7 +205,7 @@ void areaCalculation() {
         double r;
         cout << "Enter radius: ";
         cin >> r;
-        cout << "Area: " << 3.14159 * r * r << "\n";
+        cout << "Area: " << 3.14 * r * r << "\n";
     } else {
         cout << "Invalid choice!\n";
     }
@@ -239,3 +239,4 @@ int main() {
 
     return 0;
 }
+
